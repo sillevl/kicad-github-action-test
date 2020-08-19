@@ -486,10 +486,10 @@
     )
   )
 
-  (gr_line (start 71 -45) (end 72 -83) (layer Edge.Cuts) (width 0.05) (tstamp 5F3D3107))
+  (gr_line (start 71 -45) (end 71 -83) (layer Edge.Cuts) (width 0.05) (tstamp 5F3D3107))
   (gr_line (start 11 -45) (end 71 -45) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 11 -83) (end 11 -45) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 72 -83) (end 11 -83) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 71 -83) (end 11 -83) (layer Edge.Cuts) (width 0.05))
 
   (segment (start 40.340001 -77.804999) (end 46.054999 -77.804999) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 47.055 -78.805) (end 56.56 -78.805) (width 0.25) (layer F.Cu) (net 2))
