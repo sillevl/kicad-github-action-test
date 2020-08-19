@@ -29,3 +29,25 @@ outputs:
       dnp_field: 'DNP'
       name_format: ''
       output: '%f.%x'
+      
+  - name: 'print schema'
+    comment: "Print schematic (PDF)"
+    type: pdf_sch_print
+    dir: docs
+    options:
+      output: '%p-Schematic.%x'
+
+  - name: 'print schema'
+    comment: "Print schematic (SVG)"
+    type: svg_sch_print
+    dir: docs
+    options:
+      output: '%p-Schematic.%x'
+            
+  - name: 'print board'
+    comment: "Print board (PDF)"
+    type: pdf_pcb_print
+    layers: 'user'
+    dir: docs
+    options:
+      output: '%p-Board.%x'
