@@ -19,7 +19,7 @@ jobs:
     - uses: nerdyscout/kicad-exports@v2.0
       with:
       # Required - kiplot config file
-        config: plot.kiplot.yaml
+        config: config.kiplot.yaml
       # optional - prefix to output defined in config
         dir: .
       # optional - schematic file
